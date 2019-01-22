@@ -1,0 +1,49 @@
+.section2 {
+    min-height: 450px;
+}
+
+.section2 img {
+    width: 100%;
+    margin-top: 70px;
+    min-height: 300px;
+}
+
+/* Image Overlay */
+
+.section2 .glaze {
+    position: relative;
+}
+
+.section2 .cover {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #04a3ce;
+    bottom: 0;
+    left: 0;
+    transition: ease-in .5s;
+    opacity: .9;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section2 .portfolio:hover .cover {
+    height: 81%;
+}
+
+/* End Image Overlay */
+
+.section2 .cover h2 {
+    color: #fff;
+    margin: 30px 0 20px 0;
+    font-weight: bold;
+}
+
+.section2 .cover p {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.section2 .cover .fa {
+    margin: 0 20px;
+}

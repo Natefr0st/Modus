@@ -1,0 +1,48 @@
+footer {
+    background-color: #00c7fc;
+    color: #fff;
+}
+
+footer .wrap {
+    margin: 55px 0 62px 0;
+}
+
+footer .wrap::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+footer .copyright {
+    float: left;
+}
+
+footer .social-links {
+    float: right;
+}
+
+footer .social-links a {
+    padding-left: 40px;
+    display: inline-block;
+}
+
+footer .social-links a:first-child {
+    padding: 0;
+}
+
+/* Mobile Devices */
+
+@media (min-width:360px) and (max-width:767px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .copyright {
+        float: none;
+        margin-bottom: 30px;
+    }
+
+    footer .social-links {
+        float: none;
+    }
+}

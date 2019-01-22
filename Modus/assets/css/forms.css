@@ -1,0 +1,98 @@
+.forms {
+    background-color: #101012;
+}
+
+.forms .forms-box {
+    min-width: 113px;
+    min-height: 499px;
+    border: 1px solid #fff;
+    margin: 55px 0 58px 0;
+    text-align: center;
+}
+
+.forms .forms-box h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 93px;
+    letter-spacing: 2px;
+}
+
+.forms .about h2 {
+    position: relative;
+    margin-bottom: 102px;
+}
+
+.forms .about h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    background-color: #00c7fc;
+    width: 30px;
+    left: 47%;
+    bottom: -100%;
+}
+
+.forms .contact h2 {
+    margin-bottom: 50px;
+}
+
+.forms .about p {
+    padding: 0 87px;
+    color: #fff;
+}
+
+.forms label {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.forms input, textarea {
+    border: none;
+    outline: none;
+    background-color: #101012;
+    min-width: 430px;
+    resize: none;
+    color: #fff;
+}
+
+.forms input:focus {
+    background-color: #101012;
+}
+
+.forms #email, #message {
+    border-bottom: 2px solid #707070;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.forms #email {
+    margin-bottom: 30px;
+}
+
+.forms #btn-submit {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: #101012;
+    color: #00c7fc;
+    font-size: 0.938em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Mobile Devices */
+
+@media (min-width:360px) and (max-width:767px) {
+    .forms input, textarea {
+        min-width: 300px;
+    }
+    
+    .forms .about p {
+        padding: 0 20px;
+    }
+}

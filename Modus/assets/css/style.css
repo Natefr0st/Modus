@@ -1,0 +1,23 @@
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, a, label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {font-size: 3.125em;}
+h2 {font-size: 1.563em;}
+h3 {font-size: 0.938em;}
+
+p {
+    font-family: 'Crimson Text', serif;
+}
+
+a, 
+a:hover, 
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}

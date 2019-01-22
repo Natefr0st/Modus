@@ -1,0 +1,29 @@
+.section3 {
+    background-color: #f4f4f4;
+}
+
+.section3 .box {
+    min-height: 350px;
+    background-color: #fff;
+    margin: 140px 0;
+    text-align: center;
+}
+
+.section3 .box img {
+    border-bottom: 2px solid #00c7fc;
+    margin: 50px 0 30px 0;
+    padding-bottom: 15px;
+}
+
+.section3 .box h3 {
+    color: #000;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section3 .box p {
+    padding: 0 30px;
+    letter-spacing: 1px;
+}
